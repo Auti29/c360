@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import HRDashboardPage from "./pages/HrDashboard";
 import './index.css';
 import HRTestCreation from "./pages/HRTestCreation";
+import "./index.css";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/signup/recruiter" element={<HRDashboardPage />} />
         <Route path="/createTest" element={<HRTestCreation />} />
+        
       </Routes>
     </Router>
   );
